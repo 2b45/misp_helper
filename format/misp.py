@@ -8,6 +8,7 @@ import json
 import logging
 import csv
 
+
 class format_misp(baseclass):
     def __init__(self, config, output_config):
         self.output_dir =  os.path.join(config['output_dir'], output_config['output_dir'])

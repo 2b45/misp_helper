@@ -1,9 +1,9 @@
 # Your MISP's URL
-url: https://localhost
+url: https://10.27.113.2
 
 # The auth key to the MISP user that you wish to use. Make sure that the
 # user has auth_key access
-key:
+key: 64XoALxFTaZnWOd9o0ZGn0vydPRtcSRIl1IIIDmT
 
 # Should the certificate be validated?
 verify_ssl: false

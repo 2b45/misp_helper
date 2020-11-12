@@ -51,3 +51,11 @@ The docker image includes
 You can load cron.d tab files by volumemounting them into /etc/cron.d/feedgen
 
 See the example docker-compoase.yml file
+
+## 2020-11-12
+- 没什么用，好吧。。
+
+
+## 2020-11-12-2
+- 学习威胁情报规范。
+

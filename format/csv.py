@@ -2,13 +2,14 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from lib.base import baseclass
+from lib.base import BaseClass
 
 import os
 import csv
 import dotted
 
-class format_csv(baseclass):
+
+class format_csv(BaseClass):
     def __init__(self, config, output_config):
         self.filename = os.path.join(config['output_dir'], output_config['filename'])
 
@@ -50,7 +51,7 @@ class format_csv(baseclass):
             original = ""
 
         if original != set(map(tuple, data)):
-            with open(self.filename, 'w', newline='') as outputfile:
+            with open(self.filename, 'w', newline='', encoding='utf-8') as outputfile:
                 csvfile = csv.writer(outputfile)
                 csvfile.writerow(self.headers)
                 for row in data:

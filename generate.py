@@ -89,6 +89,7 @@ class misp_feed:
                 events.append(e)
         return events
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("config", help="The configuration file to run")

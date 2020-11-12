@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from lib.base import baseclass
+from lib.base import BaseClass
 
 from columnar import columnar
 import dotted
 
-class format_screen(baseclass):
+
+class format_screen(BaseClass):
     def __init__(self, config, output_config):
         if 'unroll' in output_config:
             self.to_unroll = output_config['unroll']

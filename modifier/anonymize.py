@@ -1,6 +1,7 @@
 
 from pymisp.mispevent import MISPOrganisation
 
+
 class modifier_anonymize:
     def __init__(self, config, mod_config):
         self.org = MISPOrganisation()

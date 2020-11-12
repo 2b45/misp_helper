@@ -3,7 +3,8 @@
 
 import itertools
 
-class baseclass:
+
+class BaseClass:
     def __init__(self, config, output_config):
         pass
 
